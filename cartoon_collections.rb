@@ -8,8 +8,8 @@ def summon_captain_planet(array)
   p planet
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(array)
+  array.any?{ |obj| obj.length > 4}
 end
 
 def find_the_cheese# code an argument here
